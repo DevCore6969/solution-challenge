@@ -1,0 +1,55 @@
+<section class="calculator-section">
+    <div class="calculator-container">
+        <h2>Carbon Footprint Calculator</h2>
+        <form id="carbonCalculator" class="calculator-form">
+            <div class="calc-group">
+                <h3>Transportation</h3>
+                <div class="input-group">
+                    <label for="carMiles">Car Miles per Week:</label>
+                    <input type="number" id="carMiles" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="publicTransit">Public Transit Hours per Week:</label>
+                    <input type="number" id="publicTransit" min="0">
+                </div>
+            </div>
+
+            <div class="calc-group">
+                <h3>Home Energy</h3>
+                <div class="input-group">
+                    <label for="electricity">Monthly Electricity Usage (kWh):</label>
+                    <input type="number" id="electricity" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="naturalGas">Monthly Natural Gas Usage (therms):</label>
+                    <input type="number" id="naturalGas" min="0">
+                </div>
+            </div>
+
+            <div class="calc-group">
+                <h3>Waste</h3>
+                <div class="input-group">
+                    <label for="wasteAmount">Weekly Waste (lbs):</label>
+                    <input type="number" id="wasteAmount" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="recycling">Recycling Percentage:</label>
+                    <input type="range" id="recycling" min="0" max="100" value="0">
+                    <span id="recyclingValue">0%</span>
+                </div>
+            </div>
+
+            <button type="submit" class="calculate-btn">Calculate Footprint</button>
+        </form>
+
+        <div id="results" class="calculator-results">
+            <h3>Your Carbon Footprint</h3>
+            <div class="result-display">
+                <span id="totalFootprint">0</span>
+                <span class="unit">tons CO2/year</span>
+            </div>
+            <div class="comparison-chart" id="comparisonChart"></div>
+            <div class="recommendations" id="recommendations"></div>
+        </div>
+    </div>
+</section> 

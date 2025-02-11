@@ -1,0 +1,20 @@
+
+*Design Batches & Certificates * 
+layout for prototype:-
+1.  Interactive Map-Based Exploration (Dashboard)
+2.  Personalized User Dashboard [profile]
+3.Resource Library with Advanced Filters[Media section]
+4.Event Management and RSVP [Google Form to raise Ticket]
+5.Sustainable Project Crowdfunding[Donation]
+6. AI chatbot 
+7.  Analytics and Reporting for Admins(backend devloper).
+
+main feature :-   1. carbon footprint   calculator,  
+2.Community Engagement Platforms,
+3. Augmented Reality (AR) Environmental Impact Visualizer ,
+4.Blockchain-Based Transparency for Sustainable Products ,
+ 5.AI-Powered Waste Sorting Advisor,
+6. Real-Time Environmental Quality Monitoring[Only for Dashboard],
+7.Eco-Investment Portfolio Tracker ,
+8. Interactive Educational Games on Sustainability [ Coming soon] ,
+9. Sustainable Event Planning Assistant 
